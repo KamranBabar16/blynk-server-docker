@@ -19,7 +19,7 @@ docker run KamranBabar16/blynk-server-docker:latest
 To forward IP ports from the host to the container, do this:
 
 ```sh
-docker run -p 8181:8181 -p 8441:8441 -p 9444:9444 KamranBabar16/blynk-server-docker:latest
+docker run -p 8181:8181 -p 9444:9444 KamranBabar16/blynk-server-docker:latest
 ```
 
 To persist data, mount a directory into the container:
